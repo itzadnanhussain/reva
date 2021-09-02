@@ -1,0 +1,22 @@
+.header-box-1 {
+	background: #005996;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.header-box-1 {
+	border-bottom: 1px solid #e4e6e8;
+	width: 100%;
+}
+.header-box-1 .content-1 {
+	text-align: center;
+}
+.header-box-1 .content-1 h2 {
+	font-size: 24px;
+	line-height: 28px;
+	color: #ffffff !important;
+}
+.header-box-1 .content-1 hr {
+	width: 206px;
+	height: 3px;
+    background: #FFFFFF;
+    margin-top: 0px !important;
+}

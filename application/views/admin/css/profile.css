@@ -1,0 +1,150 @@
+.header-box-1 {
+	background: #005996;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	padding: 2.25rem 2.25rem;
+}
+.header-box-1 {
+	border-bottom: 1px solid #e4e6e8;
+	width: 100%;
+}
+
+.header-box-1 .content-2 {
+	text-align: center;
+	color: white;
+	margin-left: 38px;
+	display: flex;
+}
+.header-box-1 .content-2 h2 {
+	color: white !important;
+	font-size: 24px;
+	margin-left: 3rem;
+	margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+
+	.header-box-1 .content-2 { 
+		margin-left: 0px;
+		display: block; 
+	}
+	.header-box-1 .content-2 h2 {
+		margin-left: 1rem;
+		margin-top: 1rem;
+	}
+	.edit-img { 
+		margin-top: 5px !important; 
+	}
+}
+
+.ellipse-image {
+	background-color: white;
+	height: 97px;
+	width: 98px;
+	border-radius: 50%;
+}
+.edit-img {
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 36px;
+}
+
+.ellipse-camera {
+	display: inline-block;
+	background-color: #e2a063;
+	cursor: pointer;
+  width: 100%;
+  height: 100%;
+	
+	/* width: 30px;  */
+	/* height: 30px; */
+	text-align: center !important;
+	border-radius: 50%;
+	/* margin-top: 55px; */
+	margin-left: 55px;
+}
+.ellipse-camera i {
+	margin-top: 8px; 
+	font-size: 15px;
+}
+
+ 
+
+/* Test Css */
+/* #imgContainer {
+            width: 100%;
+            text-align: center;
+            position: relative;
+        } */
+
+#imgArea { 
+
+	display: inline-block;
+	margin: 0 auto; 
+	position: relative;
+	background-color: #005996; 
+}
+
+ 
+
+#imgArea img {
+	background-color: white;
+	height: 97px;
+	width: 98px;
+	border-radius: 50%;
+	 
+}
+
+#imgChange {
+	/* background: url("../img/overlay.png") repeat scroll 0 0 rgba(0, 0, 0, 0); */
+	bottom: 0;
+	color: #ffffff;
+	display: block;
+	
+	left: 0;
+	line-height: 32px;
+	position: absolute;
+	text-align: center; 
+	width: 30px;
+	height: 30px;
+	 
+}
+
+#imgChange input[type="file"] {
+	bottom: 0; 
+	height: 100%;
+	left: 50px;
+	margin: 0;
+	opacity: 0;
+	cursor: pointer;
+	padding: 0;
+	 font-size: 0px;
+	position: absolute;
+	width: 40px; 
+	z-index: 0;
+}
+
+/* Progressbar */
+.progressBar {
+	background: none repeat scroll 0 0 #e0e0e0;
+	left: 0;
+	padding: 3px 0;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	display: none;
+}
+
+.progressBar .bar {
+	background-color: #ff6c67;
+	width: 0%;
+	height: 14px;
+}
+
+.progressBar .percent {
+	display: inline-block;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 2px;
+	width: 100%;
+}

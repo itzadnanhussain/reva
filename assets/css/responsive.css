@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+	/* smartphones, iPhone, portrait 480x320 phones */
+	.logoimg {
+		width: 110px;
+		height: auto;
+		margin-top: -97px;
+	}
+} 
+ 
+@media (min-width: 1025px) {
+	/* big landscape tablets, laptops, and desktops */
+	.logoimg {
+		width: 130px;
+		height: auto;
+	}
+}
+ 
