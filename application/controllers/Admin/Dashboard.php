@@ -187,7 +187,7 @@ class Dashboard extends CI_Controller
         }
     }
 
-    ////Logout
+    ////Logout one
     public function Logout()
     {
         session_destroy();
